@@ -1,0 +1,18 @@
+.letter:hover {
+  fill: aliceblue;
+}
+@keyframes arrow-1 {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 50px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+
+/* .b:hover {
+  animation: 700ms linear 0s normal none infinite running cross-scanner;
+} */

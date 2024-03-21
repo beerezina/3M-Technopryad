@@ -1,0 +1,89 @@
+html {
+  background-color: black;
+}
+
+.first-screen {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 56.04vw;
+}
+.box-first-screen {
+  width: 83.4vw;
+}
+.logo-1 > svg {
+  width: 16.6vw;
+  height: 54.03vw;
+}
+.arrows-1-box {
+  display: flex;
+  align-items: center;
+}
+.line-1 {
+  width: 7vw;
+  height: 0.1vw;
+  background-color: aliceblue;
+  animation: 1s linear 0s normal none infinite running arrow-1;
+}
+.line-2 {
+  width: 7vw;
+  height: 0.1vw;
+  background-color: aliceblue;
+  animation: 1s linear 0s normal none infinite running arrow-2;
+}
+.line-3 {
+  width: 7vw;
+  height: 0.1vw;
+  background-color: aliceblue;
+  animation: 1s linear 0s normal none infinite running arrow-3;
+}
+.arrows-1-box {
+  display: flex;
+  width: 80.3vw;
+  /* width: 100vw; */
+
+  justify-content: space-between;
+}
+.arrows-1-box > img {
+  width: 0.8vw;
+  height: 1vw;
+}
+.dash > img {
+  width: 17vw;
+  height: 0.3vw;
+}
+.arrow-number-1 {
+  display: flex;
+  align-items: center;
+}
+.arrow-number-2 {
+  display: flex;
+  align-items: center;
+}
+.arrow-number-3 {
+  display: flex;
+  align-items: center;
+}
+.arrows-box {
+  display: flex;
+  width: 62.3vw;
+  justify-content: space-between;
+}
+/* .arrow-number-1,
+.arrow-number-2,
+.arrow-number-3 > img {
+  width: 0.8vw;
+  height: 1vw;
+} */
+img > .arrow-number-1 {
+  width: 0.8vw;
+  height: 1vw;
+}
+img > .arrow-number-2 {
+  width: 0.8vw;
+  height: 1vw;
+}
+img > .arrow-number-3 {
+  width: 0.8vw;
+  height: 1vw;
+}
