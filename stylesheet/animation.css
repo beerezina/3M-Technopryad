@@ -3,16 +3,49 @@
 }
 @keyframes arrow-1 {
   0% {
-    width: 100px;
+    width: 14vw;
   }
   50% {
-    width: 50px;
+    width: 9vw;
   }
   100% {
-    width: 100px;
+    width: 14vw;
   }
 }
 
+@keyframes arrow-2 {
+  0% {
+    width: 18.86vw;
+  }
+  50% {
+    width: 23.86vw;
+  }
+  100% {
+    width: 18.86vw;
+  }
+}
+@keyframes arrow-3 {
+  0% {
+    width: 14vw;
+  }
+  50% {
+    width: 9vw;
+  }
+  100% {
+    width: 14vw;
+  }
+}
 /* .b:hover {
   animation: 700ms linear 0s normal none infinite running cross-scanner;
 } */
+@keyframes arrow-4 {
+  0% {
+    width: 70vw;
+  }
+  50% {
+    width: 75.69vw;
+  }
+  100% {
+    width: 70vw;
+  }
+}

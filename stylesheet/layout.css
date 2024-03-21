@@ -6,10 +6,12 @@ html {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  height: 56.04vw;
+  height: 60.04vw;
+  padding: 2.57vw;
+  box-sizing: border-box;
 }
 .box-first-screen {
-  width: 83.4vw;
+  width: 78.26vw;
 }
 .logo-1 > svg {
   width: 16.6vw;
@@ -39,8 +41,7 @@ html {
 }
 .arrows-1-box {
   display: flex;
-  width: 80.3vw;
-  /* width: 100vw; */
+  width: 75.69vw; /* width: 100vw; */
 
   justify-content: space-between;
 }
@@ -66,7 +67,7 @@ html {
 }
 .arrows-box {
   display: flex;
-  width: 62.3vw;
+  width: 57.16vw;
   justify-content: space-between;
 }
 /* .arrow-number-1,
@@ -86,4 +87,27 @@ img > .arrow-number-2 {
 img > .arrow-number-3 {
   width: 0.8vw;
   height: 1vw;
+}
+.header-text {
+  font-family: Joystix;
+  color: aliceblue;
+  font-size: 4.17vw;
+  text-align: right;
+  width: 76vw;
+}
+.arrows-2-box {
+  width: 75.69vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img > .arrows-2-box {
+  width: 0.8vw;
+  height: 1vw;
+}
+.line-4 {
+  width: 75.69vw;
+  height: 0.1vw;
+  background-color: aliceblue;
+  animation: 1s linear 0s normal none infinite running arrow-4;
 }
