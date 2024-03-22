@@ -24,6 +24,17 @@
     width: 18.86vw;
   }
 }
+@keyframes arrow-2-2 {
+  0% {
+    width: 20.46vw;
+  }
+  50% {
+    width: 25.46vw;
+  }
+  100% {
+    width: 20.46vw;
+  }
+}
 @keyframes arrow-3 {
   0% {
     width: 14vw;
@@ -48,4 +59,23 @@
   100% {
     width: 70vw;
   }
+}
+span:hover {
+  fill: red;
+  color: #4200ff;
+}
+.masked:hover {
+  opacity: 100%;
+}
+.masked-1:hover {
+  opacity: 100%;
+}
+.masked-2:hover {
+  opacity: 100%;
+}
+.masked-3:hover {
+  opacity: 100%;
+}
+.masked-4:hover {
+  opacity: 100%;
 }
