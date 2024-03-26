@@ -60,6 +60,39 @@
     width: 70vw;
   }
 }
+@keyframes arrow-44 {
+  0% {
+    width: 71.6vw;
+  }
+  50% {
+    width: 77.29vw;
+  }
+  100% {
+    width: 71.6vw;
+  }
+}
+@keyframes arrow-5 {
+  0% {
+    width: 12.555vw;
+  }
+  50% {
+    width: 23.3vw;
+  }
+  100% {
+    width: 12.555vw;
+  }
+}
+@keyframes arrow-55 {
+  0% {
+    width: 14, 155vw;
+  }
+  50% {
+    width: 24.9vw;
+  }
+  100% {
+    width: 14, 155vw;
+  }
+}
 span:hover {
   fill: red;
   color: #4200ff;
@@ -78,4 +111,16 @@ span:hover {
 }
 .masked-4:hover {
   opacity: 100%;
+}
+.masked5:hover {
+  opacity: 100%;
+}
+#nextButton:hover {
+  background-color: #4200ff;
+  /* border: 0.1vw solid #4200ff; */
+}
+/* box-shadow: 0px 0px 44px 0px rgba(0, 0, 255, 1); */
+#prevButton:hover {
+  background-color: #4200ff;
+  /* border: 0.1vw solid #4200ff; */
 }
