@@ -81,3 +81,20 @@ document.getElementById("nextButton").addEventListener("click", function () {
   currentIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
   imageElement.src = images[currentIndex];
 });
+
+// звезды
+
+// Получаем все SVG элементы
+const stars = document.querySelectorAll('svg[class^="star-"]');
+
+// Добавляем слушателя события click к каждому SVG элементу
+stars.forEach((star) => {
+  star.addEventListener("click", function () {
+    // Снимаем класс 'paused' с текущего SVG элемента, чтобы возобновить анимацию или добавляем класс, чтобы остановить анимацию
+    this.classList.toggle("paused");
+
+    // Меняем цвет для соответствующего h-star элемента
+    const hStar = this.querySelector(".h-" + this.classList[0]); // Находим соответствующий h-star
+    hStar.style.fill = hStar.style.fill === "white" ? "#4200ff" : "white"; // Меняем цвет
+  });
+});

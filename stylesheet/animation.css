@@ -93,6 +93,127 @@
     width: 14, 155vw;
   }
 }
+@keyframes arrow-6 {
+  0% {
+    width: 4.4vw;
+  }
+  50% {
+    width: 9.4vw;
+  }
+  100% {
+    width: 4.4vw;
+  }
+}
+@keyframes arrow-7 {
+  0% {
+    width: 15vw;
+  }
+  50% {
+    width: 20vw;
+  }
+  100% {
+    width: 15vw;
+  }
+}
+@keyframes arrow-07 {
+  0% {
+    width: 19.07vw;
+  }
+  50% {
+    width: 43.07vw;
+  }
+  100% {
+    width: 19.07vw;
+  }
+}
+@keyframes arrow-8 {
+  0% {
+    width: 4.4vw;
+  }
+  50% {
+    width: 9.4vw;
+  }
+  100% {
+    width: 4.4vw;
+  }
+}
+@keyframes arrow-88 {
+  0% {
+    width: 6vw;
+  }
+  50% {
+    width: 11vw;
+  }
+  100% {
+    width: 6vw;
+  }
+}
+@keyframes arrow-10 {
+  0% {
+    width: 6vw;
+  }
+  50% {
+    width: 11vw;
+  }
+  100% {
+    width: 6vw;
+  }
+}
+@keyframes arrow-11 {
+  0% {
+    width: 14.4vw;
+  }
+  50% {
+    width: 20vw;
+  }
+  100% {
+    width: 14.4vw;
+  }
+}
+@keyframes arrow-12 {
+  0% {
+    width: 6vw;
+  }
+  50% {
+    width: 11vw;
+  }
+  100% {
+    width: 6vw;
+  }
+}
+@keyframes arrow-101 {
+  0% {
+    width: 7.6vw;
+  }
+  50% {
+    width: 12.6vw;
+  }
+  100% {
+    width: 7.6vw;
+  }
+}
+@keyframes arrow-111 {
+  0% {
+    width: 16vw;
+  }
+  50% {
+    width: 21.6vw;
+  }
+  100% {
+    width: 16vw;
+  }
+}
+@keyframes arrow-121 {
+  0% {
+    width: 7.6vw;
+  }
+  50% {
+    width: 12.6vw;
+  }
+  100% {
+    width: 7.6vw;
+  }
+}
 span:hover {
   fill: red;
   color: #4200ff;
@@ -115,6 +236,27 @@ span:hover {
 .masked5:hover {
   opacity: 100%;
 }
+.masked6:hover {
+  opacity: 100%;
+}
+.masked7:hover {
+  opacity: 100%;
+}
+.masked07:hover {
+  opacity: 100%;
+}
+.masked8:hover {
+  opacity: 100%;
+}
+.masked10:hover {
+  opacity: 100%;
+}
+.masked11:hover {
+  opacity: 100%;
+}
+.masked12:hover {
+  opacity: 100%;
+}
 #nextButton:hover {
   background-color: #4200ff;
   /* border: 0.1vw solid #4200ff; */
@@ -123,4 +265,98 @@ span:hover {
 #prevButton:hover {
   background-color: #4200ff;
   /* border: 0.1vw solid #4200ff; */
+}
+
+.h-star-1:hover {
+  animation-play-state: paused;
+
+  fill: #4200ff;
+}
+.h-star-2:hover {
+  fill: #4200ff;
+}
+.h-star-3:hover {
+  fill: #4200ff;
+}
+.h-star-4:hover {
+  fill: #4200ff;
+}
+.h-star-5:hover {
+  fill: #4200ff;
+}
+
+@keyframes star-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(43.61vw);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes star-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(43.61vw);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes star-3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20vw);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes star-4 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(42vw);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes star-5 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20vw);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+.star-1:hover {
+  animation-play-state: paused;
+}
+.star-2:hover {
+  animation-play-state: paused;
+}
+.star-3:hover {
+  animation-play-state: paused;
+}
+.star-4:hover {
+  animation-play-state: paused;
+}
+.star-5:hover {
+  animation-play-state: paused;
 }

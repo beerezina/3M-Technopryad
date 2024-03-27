@@ -1,21 +1,30 @@
 html {
   background-color: black;
+  /* width: 100vw; */
+  height: 166.5972vw;
+  background-image: url(../images/backg2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .first-screen {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  height: 60.04vw;
-  padding: 1vw 2.57vw 2.57vw 2.57vw;
+  /* width: 100vw;
+  height: 54.04vw; */
+  /* padding: 1vw 2.57vw 2.57vw 2.57vw; */
+  padding: 1vw 1.25vw 1.25vw 1.25vw;
   box-sizing: border-box;
+  overflow: hidden;
 }
+
 .box-first-screen {
   width: 78.26vw;
 }
 .logo-1 > svg {
-  width: 16.6vw;
-  height: 54.03vw;
+  width: 15.6vw;
+  height: 50vw;
 }
 .arrows-1-box {
   display: flex;
@@ -122,9 +131,7 @@ img > .arrow-number-3 {
   background-color: white;
   animation: 1s linear 0s normal none infinite running arrow-4;
 }
-.header-text {
-  clip-path: content-box;
-}
+
 .masked {
   position: absolute;
   background-color: #4200ff;
@@ -169,7 +176,7 @@ img > .arrow-number-3 {
   flex-direction: column;
 }
 .welcome {
-  width: 19vw;
+  width: 21vw;
   height: 11vw;
   margin: 1.53vw 1.53vw 0 0;
   border: 0.07vw white solid;
@@ -183,13 +190,13 @@ img > .arrow-number-3 {
   align-items: center;
 }
 .welcome-content > p {
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-family: Joystix;
   color: white;
   line-height: 1.2vw;
 }
 .name {
-  width: 19vw;
+  width: 21vw;
   height: 9vw;
   margin: 1.53vw 1.53vw 0 0;
   border: 0.07vw white solid;
@@ -201,7 +208,7 @@ img > .arrow-number-3 {
   box-sizing: border-box;
 }
 .characteristics {
-  width: 19vw;
+  width: 21vw;
   height: 11.5vw;
   margin: 1.53vw 1.53vw 0 0;
   border: 0.07vw white solid;
@@ -237,7 +244,7 @@ img > .arrow-number-3 {
   line-height: 1.2vw;
 }
 .further {
-  width: 19vw;
+  width: 21vw;
   height: 3.9vw;
   margin: 1.53vw 1.53vw 0 0;
   border: 0.07vw white solid;
@@ -289,6 +296,7 @@ img > .arrow-number-3 {
   display: flex;
 }
 .window {
+  height: 45vw;
   width: 58.16vw;
   display: flex;
   flex-direction: column;
@@ -404,4 +412,328 @@ img > .arrow-number-3 {
 .m-column > img {
   width: 45.636vw;
   height: 34.914vw;
+}
+
+.arrow-number-4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.arrow-number-5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-number-6 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.arrows-3-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.25vw 3.8vw 0 3.8vw;
+}
+.line-6 {
+  width: 11vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running arrow-6;
+}
+.line-7 {
+  width: 20vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running arrow-7;
+}
+.line-8 {
+  width: 11vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running arrow-8;
+}
+.masked6 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 15.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+}
+.masked7 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 21.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+}
+.masked8 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 15.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+  animation: 1s linear 0s normal none infinite running arrow-88;
+}
+.second-screen {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100vw; */
+  /* height: 60.04vw; */
+  padding: 0 1.25vw 1.25vw 1.25vw;
+  box-sizing: border-box;
+}
+.logo-2 > svg {
+  /* width: 15.6vw;
+  height: 40vw; */
+  width: 20.4vw;
+  height: 52.0833vw;
+}
+.header-text2 {
+  font-family: Joystix;
+  color: white;
+  font-size: 4vw;
+  width: 35vw;
+  margin-top: 1.5vw;
+  margin-left: 3.5vw;
+}
+.paint-window-box {
+  width: 52.4vw;
+  height: 47.57vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5vw;
+}
+.window-box {
+  display: flex;
+}
+.left-box {
+  background-image: url(../images/Frame\ 2709.svg);
+  height: 43.61vw;
+  width: 3.84vw;
+  margin: 0.5vw 0 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.right-box {
+  /* background-image: url(../images/Frame\ 2710.svg);
+  height: 44.1083vw;
+  width: 3.8389vw;
+  margin-top: 0.5vw;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  background-image: url(../images/Frame\ 2709.svg);
+  height: 43.61vw;
+  width: 3.84vw;
+  margin-bottom: 0.5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(180deg);
+}
+
+.paint-box {
+  height: 39.47vw;
+  width: 44.1vw;
+}
+.paint-skelet {
+  height: 41.18vw;
+  width: 44.03vw;
+
+  background-image: url(../images/Group\ 2707.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.paint-window {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 2.5vw; */
+  box-sizing: border-box;
+}
+.arrow-number-7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.arrow-number-8 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.arrow-number-9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.arrows-5-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25vw;
+  width: 52vw;
+  padding: 0 1vw;
+  box-sizing: border-box;
+}
+
+.line-10 {
+  width: 11vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running arrow-10;
+}
+.line-11 {
+  width: 20vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running arrow-11;
+}
+.line-12 {
+  width: 11vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running arrow-12;
+}
+.masked10 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 12.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+  animation: 1s linear 0s normal none infinite running arrow-101;
+}
+
+.masked11 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 21.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+  animation: 1s linear 0s normal none infinite running arrow-111;
+}
+.masked12 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 12.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+  animation: 1s linear 0s normal none infinite running arrow-121;
+}
+.arrow-number-07 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7vw;
+  /* margin-left: 1vw; */
+}
+.masked07 {
+  position: absolute;
+  background-color: #4200ff;
+  width: 44.6vw;
+  height: 1vw;
+  mix-blend-mode: multiply;
+  opacity: 0%;
+  top: 0;
+}
+.line-07 {
+  width: 25.07vw;
+  height: 0.1vw;
+  background-color: white;
+  animation: 2s linear 0s normal none infinite running arrow-07;
+}
+.column-for-star-1 > svg {
+  position: absolute;
+  width: 1.7812vw;
+  height: 1.7812vw;
+}
+.column-for-star-2 > svg {
+  position: absolute;
+  width: 1.7812vw;
+  height: 1.7812vw;
+}
+
+.column-for-star-1 {
+  height: 100%;
+  width: 1.7812vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.column-for-star-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.star-1 {
+  animation: 4s linear 0s normal none infinite running star-1;
+  animation-play-state: running;
+}
+.star-2 {
+  animation: 4s linear 0s normal none infinite running star-1;
+  animation-play-state: running;
+  animation-delay: 1s;
+}
+.star-3 {
+  animation: 4s linear 0s normal none infinite running star-1;
+  animation-play-state: running;
+  animation-delay: 2s;
+}
+.star-4 {
+  animation: 4s linear 0s normal none infinite running star-1;
+  animation-play-state: running;
+}
+.star-5 {
+  animation: 4s linear 0s normal none infinite running star-1;
+  animation-play-state: running;
+  animation-delay: 1s;
+}
+.paused {
+  animation-play-state: paused;
+}
+
+.paint-menu {
+  /* padding-top: 8.4vw; */
+  /* height: 41.18vw; */
+  height: 49.22vw;
+  padding-top: 9.9vw;
+  box-sizing: border-box;
+}
+.menu-window {
+  width: 18.33vw;
+  height: 37vw;
+  border: 0.07vw white solid;
+}
+.further2 {
+  width: 18.33vw;
+  height: 3.9vw;
+  margin: 1.53vw 0 0 0;
+  border: 0.07vw white solid;
+  background-color: #4200ff;
+}
+.further2 > p {
+  font-size: 1vw;
+  font-family: Joystix;
+  color: white;
+  line-height: 1.2vw;
+}
+.dash-3 {
+  position: relative;
+  height: 0.3vw;
+  margin: 1.53vw 0 0 0;
+}
+.dash-3 > img {
+  position: absolute;
+
+  width: 19vw;
+  height: 0.3vw;
 }
