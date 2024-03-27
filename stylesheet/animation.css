@@ -214,6 +214,18 @@
     width: 7.6vw;
   }
 }
+@keyframes arrow-last-1 {
+  0% {
+    width: 7vw;
+  }
+  50% {
+    width: 11.8vw;
+  }
+  100% {
+    width: 7vw;
+  }
+}
+
 span:hover {
   fill: red;
   color: #4200ff;
@@ -255,6 +267,9 @@ span:hover {
   opacity: 100%;
 }
 .masked12:hover {
+  opacity: 100%;
+}
+.masked-dash:hover {
   opacity: 100%;
 }
 #nextButton:hover {

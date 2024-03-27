@@ -98,3 +98,23 @@ stars.forEach((star) => {
     hStar.style.fill = hStar.style.fill === "white" ? "#4200ff" : "white"; // Меняем цвет
   });
 });
+// f
+let currentImageIndex = 0; // индекс текущего изображения
+const svgImages = document.querySelectorAll("#svg1, #svg2"); // получаем все элементы SVG с id #svg1 и #svg2
+
+function showPrevSVG() {
+  svgImages[currentImageIndex].style.display = "none"; // скрываем текущее изображение
+
+  currentImageIndex =
+    (currentImageIndex - 1 + svgImages.length) % svgImages.length; // вычисляем индекс предыдущего изображения
+
+  svgImages[currentImageIndex].style.display = "block"; // показываем предыдущее изображение
+}
+
+function showNextSVG() {
+  svgImages[currentImageIndex].style.display = "none"; // скрываем текущее изображение
+
+  currentImageIndex = (currentImageIndex + 1) % svgImages.length; // вычисляем индекс следующего изображения
+
+  svgImages[currentImageIndex].style.display = "block"; // показываем следующее изображение
+}
