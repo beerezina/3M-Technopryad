@@ -202,6 +202,22 @@ img > .arrow-number-3 {
   color: white;
   line-height: 1.2vw;
 }
+.name-text {
+  font-family: "Joystix";
+  font-size: 1.2vw;
+  color: white;
+}
+.name-window {
+  height: 7.5vw;
+  padding: 1.5vw 1.1vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* ign-content: flex-end; */
+  align-items: baseline;
+  /* align-content: flex-end; */
+  justify-content: space-between;
+}
 .name {
   width: 21vw;
   height: 9vw;
@@ -209,10 +225,46 @@ img > .arrow-number-3 {
   border: 0.07vw white solid;
 }
 .name-content {
-  height: 7.5vw;
-  width: 100%;
-  padding: 1.5vw 1.1vw;
+  width: 2.458vw; /* padding: 0.5vw 1.1vw 1.5vw 1.1vw; */
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+#textInput {
+  font-size: 1.2vw;
+  display: flex;
+  height: 1.4vw;
+  outline: none;
+  background-color: #4200ff;
+  width: 14vw;
+  margin-right: 1vw;
+  border: 0.07vw white solid;
+  align-items: center;
+  padding: 0.56vw;
+  /* box-sizing: border-box; */
+  justify-content: flex-end;
+  color: white;
+  font-family: "Joystix";
+}
+#confirmButton {
+  /* height: 2.25vw; */
+  width: 2.8vw;
+  border: 0.07vw white solid;
+  padding: 0.56vw;
+  background-color: #4200ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.56vw;
+}
+#confirmButton > img {
+  width: 1.4vw;
+  height: 1.2vw;
+}
+#outputText {
+  color: white;
+  font-family: "Joystix";
+  font-size: 1.7vw;
 }
 .characteristics {
   width: 21vw;
@@ -553,10 +605,35 @@ img > .arrow-number-3 {
 .paint-skelet {
   height: 41.18vw;
   width: 44.03vw;
-
+  position: relative;
   background-image: url(../images/Group\ 2707.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4200ff;
+}
+
+.absolut-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg1,
+.svg2,
+.svg3,
+.svg4,
+.svg5 {
+  position: absolute;
+}
+.details-but {
+  fill: grey;
+}
+.body-but {
+  fill: black;
 }
 .paint-window {
   display: flex;
@@ -848,9 +925,16 @@ img > .arrow-number-3 {
 .right-background-box,
 .in-top-left,
 .in-top-right {
-  background-color: #090120;
+  background-color: #4200ff;
 }
-
+.paint-skelet > #svgContainer > svg {
+  width: 43vw;
+  height: 35vw;
+}
+.butterflies-and-stars-box > #svgContainer > svg {
+  width: 60vw;
+  height: 34vw;
+}
 /* ------------------ третий экран */
 .third-screen {
   padding: 0 1.25vw 1.25vw 1.25vw;
@@ -886,8 +970,32 @@ img > .arrow-number-3 {
   border-left: 0;
 }
 .title-field {
+  height: 2.564vw;
   width: 15.833vw;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.outputDiv {
+  height: 2.564vw;
+  width: 15.833vw;
+}
+.outputDiv > p {
+  height: 2.564vw;
+  width: 15.833vw;
+}
+.hidden {
+  height: 1.8vw;
+  width: 15.833vw;
+}
+#outputDiv {
+  /* padding: 0.4vw 0px; */
+}
+.outputText {
+  color: white;
+  font-family: "Joystix";
+  font-size: 1.7vw;
 }
 /* бокс средней полосы */
 
@@ -900,6 +1008,9 @@ img > .arrow-number-3 {
   border-bottom: 0;
   border-top: 0;
   height: 41.042vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* бокс нижней полосы */
