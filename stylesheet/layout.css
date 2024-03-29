@@ -811,7 +811,7 @@ img > .arrow-number-3 {
 }
 .menu-window {
   width: 18.33vw;
-  height: 36vw;
+  height: 35vw;
   border: 0.07vw white solid;
 }
 .further2 {
@@ -1203,7 +1203,7 @@ img > .arrow-last-2 {
 .box-in-box-bot1,
 .box-in-box-bot2 {
   display: flex;
-  padding: 0.7vw 1vw;
+  padding: 0.9vw 1vw;
   justify-content: space-between;
 }
 #pat-1 {
@@ -1325,7 +1325,7 @@ img > .arrow-last-2 {
   color: white;
   margin-bottom: 0.8vw;
   margin-left: 0.8vw;
-  margin-top: 1.8vw;
+  margin-top: 2.4vw;
 }
 div > input {
   width: 3.125vw;
@@ -1357,6 +1357,8 @@ div > input {
 .in-color-block {
   display: flex;
   justify-content: space-between;
+  padding: 0.5vw;
+  box-sizing: border-box;
 }
 .wings,
 .view,
@@ -1365,7 +1367,7 @@ div > input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5vw 1vw;
+  /* padding: 0.5vw 1vw; */
 }
 .detailss,
 .backgr {
