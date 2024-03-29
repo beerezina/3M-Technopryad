@@ -1,0 +1,23 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_442_643" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="45" height="45">
+<path d="M0 0H45V45H0V0Z" fill="#4200FF"/>
+</mask>
+<g mask="url(#mask0_442_643)">
+<circle cx="-3.59976" cy="13.7069" r="8.6268" fill="white"/>
+<circle cx="13.6502" cy="13.7069" r="8.6268" fill="white"/>
+<circle cx="13.6502" cy="-3.55191" r="8.6268" fill="white"/>
+<circle cx="-3.59976" cy="-3.55191" r="8.6268" fill="white"/>
+<circle cx="30.9159" cy="13.7069" r="8.6268" fill="white"/>
+<circle cx="48.1659" cy="13.7069" r="8.6268" fill="white"/>
+<circle cx="48.1659" cy="-3.55191" r="8.6268" fill="white"/>
+<circle cx="30.9159" cy="-3.55191" r="8.6268" fill="white"/>
+<circle cx="-3.59976" cy="48.2127" r="8.6268" fill="white"/>
+<circle cx="13.6502" cy="48.2127" r="8.6268" fill="white"/>
+<circle cx="13.6502" cy="30.9549" r="8.6268" fill="white"/>
+<circle cx="-3.59976" cy="30.9549" r="8.6268" fill="white"/>
+<circle cx="30.9159" cy="48.2127" r="8.6268" fill="white"/>
+<circle cx="48.1659" cy="48.2127" r="8.6268" fill="white"/>
+<circle cx="48.1659" cy="30.9549" r="8.6268" fill="white"/>
+<circle cx="30.9159" cy="30.9549" r="8.6268" fill="white"/>
+</g>
+</svg>

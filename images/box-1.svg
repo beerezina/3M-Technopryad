@@ -1,0 +1,28 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_442_554" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="45" height="45">
+<rect x="-0.5" y="0.5" width="44" height="44" transform="matrix(-1 0 0 1 44 0)" fill="#4200FF" stroke="#FF0000"/>
+</mask>
+<g mask="url(#mask0_442_554)">
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 265.703 57.2734)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 238.477 69.8848)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 211.242 82.5049)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 184.012 95.1318)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 156.781 107.751)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 129.555 120.363)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 102.324 132.99)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 75.0898 145.61)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 47.8594 158.229)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 20.6289 170.856)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 272.344 44.6689)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 245.113 57.2734)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 217.883 69.8848)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 190.656 82.5049)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 163.422 95.1318)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 136.191 107.751)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 108.965 120.363)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 81.7305 132.99)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 54.5039 145.61)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 27.2695 158.229)" stroke="white"/>
+<line y1="-0.5" x2="328.112" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 0.0429688 170.856)" stroke="white"/>
+</g>
+</svg>

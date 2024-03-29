@@ -1,7 +1,7 @@
 html {
   background-color: black;
   /* width: 100vw; */
-  height: 166.5972vw;
+  height: 115.9vw;
   background-image: url(../images/backg6.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -206,6 +206,7 @@ img > .arrow-number-3 {
   font-family: "Joystix";
   font-size: 1.2vw;
   color: white;
+  margin-bottom: 1vw;
 }
 .name-window {
   height: 7.5vw;
@@ -233,10 +234,10 @@ img > .arrow-number-3 {
 #textInput {
   font-size: 1.2vw;
   display: flex;
-  height: 1.4vw;
+  height: 2vw;
   outline: none;
   background-color: #4200ff;
-  width: 14vw;
+  width: 15.8vw;
   margin-right: 1vw;
   border: 0.07vw white solid;
   align-items: center;
@@ -247,19 +248,24 @@ img > .arrow-number-3 {
   font-family: "Joystix";
 }
 #confirmButton {
-  /* height: 2.25vw; */
-  width: 2.8vw;
+  height: 2vw;
+  width: 2vw;
   border: 0.07vw white solid;
   padding: 0.56vw;
-  background-color: #4200ff;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.56vw;
+  /* padding: 0.56vw; */
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+#confirmButton:hover {
+  background-color: #4200ff;
 }
 #confirmButton > img {
-  width: 1.4vw;
-  height: 1.2vw;
+  width: 2vw;
+  height: 1.4vw;
 }
 #outputText {
   color: white;
@@ -308,7 +314,9 @@ img > .arrow-number-3 {
   margin: 1.53vw 1.53vw 0 0;
   border: 0.07vw white solid;
   background-color: #4200ff;
+  cursor: pointer;
 }
+
 .further > p {
   font-size: 1vw;
   font-family: Joystix;
@@ -405,6 +413,9 @@ img > .arrow-number-3 {
   height: 3.123vw;
   margin-left: 3.1vw;
   margin-top: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .skelet-box {
   width: 58vw;
@@ -424,6 +435,8 @@ img > .arrow-number-3 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: background-color 0.5s;
+  cursor: pointer;
 }
 
 #nextButton {
@@ -436,6 +449,8 @@ img > .arrow-number-3 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  transition: background-color 0.5s;
+  cursor: pointer;
 }
 #prevButton > img {
   /* margin-left: -1.181vw; */
@@ -972,26 +987,20 @@ img > .arrow-number-3 {
 .title-field {
   height: 2.564vw;
   width: 15.833vw;
-  background-color: black;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .outputDiv {
   height: 2.564vw;
   width: 15.833vw;
 }
-.outputDiv > p {
-  height: 2.564vw;
-  width: 15.833vw;
-}
+
 .hidden {
   height: 1.8vw;
   width: 15.833vw;
 }
-#outputDiv {
-  /* padding: 0.4vw 0px; */
-}
+
 .outputText {
   color: white;
   font-family: "Joystix";
@@ -1155,4 +1164,217 @@ img > .arrow-last-2 {
   display: block;
   height: 0.069vw;
   background: green;
+}
+.color {
+  fill: white;
+  opacity: 0;
+}
+/* #first-pattern {
+        opacity: 0;
+      } */
+#pat-0,
+#pat-1,
+#pat-2,
+#pat-3,
+#pat-4,
+#pat-5,
+#pat-6,
+#pat-7,
+#pat-8,
+#pat-9,
+#pat-10,
+#pat-11,
+#pat-12,
+#pat-13,
+#pat-14,
+#pat-15 {
+  width: 3.125vw;
+  height: 3.125vw;
+  border: 0.07vw white solid;
+}
+.patterns-box-top,
+.patterns-box-bot {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.box-in-box-top1,
+.box-in-box-top2,
+.box-in-box-bot1,
+.box-in-box-bot2 {
+  display: flex;
+  padding: 0.7vw 1vw;
+  justify-content: space-between;
+}
+#pat-1 {
+  background-image: url(../images/box-1.svg);
+  background-size: contain;
+}
+#pat-2 {
+  background-image: url(../images/box-2.svg);
+  background-size: contain;
+}
+#pat-3 {
+  background-image: url(../images/box-3.svg);
+  background-size: contain;
+}
+#pat-4 {
+  background-image: url(../images/box-4.svg);
+  background-size: contain;
+}
+#pat-5 {
+  background-image: url(../images/box-5.svg);
+  background-size: contain;
+}
+#pat-6 {
+  background-image: url(../images/box-6.svg);
+  background-size: contain;
+}
+#pat-7 {
+  background-image: url(../images/box-7.svg);
+  background-size: contain;
+}
+#pat-8 {
+  background-image: url(../images/box-8.svg);
+  background-size: contain;
+}
+#pat-9 {
+  background-image: url(../images/box-9.svg);
+  background-size: contain;
+}
+#pat-10 {
+  background-image: url(../images/box-10.svg);
+  background-size: contain;
+}
+#pat-11 {
+  background-image: url(../images/box-11.svg);
+  background-size: contain;
+}
+#pat-12 {
+  background-image: url(../images/box-12.svg);
+  background-size: contain;
+}
+#pat-13 {
+  background-image: url(../images/box-13.svg);
+  background-size: contain;
+}
+#pat-14 {
+  background-image: url(../images/box-14.svg);
+  background-size: contain;
+}
+#pat-15 {
+  background-image: url(../images/box-15.svg);
+  background-size: contain;
+}
+.visible {
+  opacity: 1;
+}
+.block-1,
+.block-2,
+.block-3 {
+  background-color: #4200ff;
+  width: 10.4vw;
+  height: 1.2vw;
+  border: 0.1vw solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.health,
+.power,
+.speed {
+  display: flex;
+
+  justify-content: space-between;
+}
+.square {
+  height: 0.8vw;
+  width: 0.8vw;
+  /* border: 0.01vw solid white; */
+  /* background-color: white; */
+  border: 0.01vw solid white;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.square.hover {
+  background-color: white;
+}
+
+.square.clicked {
+  background-color: white;
+}
+.bottom-section-right {
+  height: 5vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hse,
+.polina {
+  font-size: 1.2vw;
+  font-family: "Joystix";
+  color: white;
+}
+.header1,
+.header2 {
+  font-size: 1.2vw;
+  font-family: "Joystix";
+  color: white;
+  margin-bottom: 0.8vw;
+  margin-left: 0.8vw;
+  margin-top: 1.8vw;
+}
+div > input {
+  width: 3.125vw;
+  height: 3.125vw;
+  border: 0.07vw white solid;
+
+  appearance: auto;
+  inline-size: 2.7vw;
+  block-size: 2.5vw;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-color: buttonborder;
+  border-image: initial;
+  padding: -0;
+}
+.wings > p,
+.view > p,
+.detailss > p,
+.backgr > p {
+  font-size: 0.8vw;
+  font-family: "Joystix";
+  color: white;
+  margin-right: 1vw;
+}
+.in-color-block {
+  display: flex;
+  justify-content: space-between;
+}
+.wings,
+.view,
+.detailss,
+.backgr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw 1vw;
+}
+.detailss,
+.backgr {
+  padding: 0.5vw 1vw 0.5vw 0;
+}
+.detailss {
+  justify-content: flex-end;
+}
+.change1 {
+  width: 3.125vw;
+  height: 3.125vw;
 }

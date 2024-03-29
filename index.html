@@ -105,19 +105,52 @@
               <div class="characteristics-content">
                 <div class="health">
                   <p>здоровье</p>
-                  <div></div>
+                  <div class="block-1">
+                    <div class="square" id="square1"></div>
+                    <div class="square" id="square2"></div>
+                    <div class="square" id="square3"></div>
+                    <div class="square" id="square4"></div>
+                    <div class="square" id="square5"></div>
+                    <div class="square" id="square6"></div>
+                    <div class="square" id="square7"></div>
+                    <div class="square" id="square8"></div>
+                    <div class="square" id="square9"></div>
+                    <div class="square" id="square10"></div>
+                  </div>
                 </div>
                 <div class="power">
                   <p>сила</p>
-                  <div></div>
+                  <div class="block-2">
+                    <div class="square" id="square11"></div>
+                    <div class="square" id="square12"></div>
+                    <div class="square" id="square13"></div>
+                    <div class="square" id="square14"></div>
+                    <div class="square" id="square15"></div>
+                    <div class="square" id="square16"></div>
+                    <div class="square" id="square17"></div>
+                    <div class="square" id="square18"></div>
+                    <div class="square" id="square19"></div>
+                    <div class="square" id="square20"></div>
+                  </div>
                 </div>
                 <div class="speed">
                   <p>скорость</p>
-                  <div></div>
+                  <div class="block-3">
+                    <div class="square" id="square21"></div>
+                    <div class="square" id="square22"></div>
+                    <div class="square" id="square23"></div>
+                    <div class="square" id="square24"></div>
+                    <div class="square" id="square25"></div>
+                    <div class="square" id="square26"></div>
+                    <div class="square" id="square27"></div>
+                    <div class="square" id="square28"></div>
+                    <div class="square" id="square29"></div>
+                    <div class="square" id="square30"></div>
+                  </div>
                 </div>
               </div>
             </div>
-            <button class="further">
+            <button class="further" id="scrollDownButton">
               <p>далее</p>
             </button>
             <div class="dash-2">
@@ -133,7 +166,11 @@
                 <img src="./images/Vector 1972.svg" class="img-arrow2" />
                 <div class="masked5"></div>
               </div>
-              <div class="band"></div>
+              <div class="band">
+                <div id="outputDiv" class="hidden">
+                  <p><span id="outputText"></span></p>
+                </div>
+              </div>
               <div class="skelet-box">
                 <div class="f-column">
                   <div id="prevButton">
@@ -407,6 +444,78 @@
           <div class="blue-top">
             <img src="./images/Group 2915.svg" alt="" />
           </div>
+          <div class="colors-block">
+            <div class="header1">цвет</div>
+          </div>
+          <div class="in-color-block">
+            <div class="for-flex-1">
+              <div class="wings">
+                <p>крылья</p>
+
+                <div>
+                  <input
+                    type="color"
+                    id="colorBody"
+                    onchange="changeBodyColor()"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="view">
+              <p>узор</p>
+              <div>
+                <input
+                  type="color"
+                  id="colorColor"
+                  onchange="changeColorColor()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="for-flex-1">
+            <div class="detailss">
+              <p>детали</p>
+              <div>
+                <input
+                  type="color"
+                  id="colorDetails"
+                  onchange="changeDetailsColor()"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="header2">узор</div>
+          <div class="patterns-box">
+            <div class="patterns-box-top">
+              <div class="box-in-box-top1">
+                <div id="pat-0" class="pat"></div>
+                <div id="pat-1" class="pat"></div>
+                <div id="pat-2" class="pat"></div>
+                <div id="pat-3" class="pat"></div>
+              </div>
+              <div class="box-in-box-bot1">
+                <div id="pat-4" class="pat"></div>
+                <div id="pat-5" class="pat"></div>
+                <div id="pat-6" class="pat"></div>
+                <div id="pat-7" class="pat"></div>
+              </div>
+            </div>
+            <div class="patterns-box-bot">
+              <div class="box-in-box-top2">
+                <div id="pat-8" class="pat"></div>
+                <div id="pat-9" class="pat"></div>
+                <div id="pat-10" class="pat"></div>
+                <div id="pat-11" class="pat"></div>
+              </div>
+              <div class="box-in-box-bot2">
+                <div id="pat-12" class="pat"></div>
+                <div id="pat-13" class="pat"></div>
+                <div id="pat-14" class="pat"></div>
+                <div id="pat-15" class="pat"></div>
+              </div>
+            </div>
+          </div>
         </div>
         <button class="further2">
           <p>завершить</p>
@@ -417,78 +526,19 @@
         </div>
       </div>
     </section>
-    <!------------------------ третий экран ------------------------>
-    <section class="third-screen">
-      <!-- див для выравнивания по центру флексом -->
-      <div class="third-box">
-        <!------- бокс верхней строки окна -->
-        <div class="up-of-window">
-          <!-- левая часть с цветом и бордером -->
-          <div class="right-background-box"></div>
-          <!-- средняя часть черная для названия -->
-          <div class="title-field">
-            <div id="outputDiv" class="hidden">
-              <p><span id="outputText"></span></p>
-            </div>
-          </div>
-          <!-- правая часть с цветом и бордером -->
-          <div class="left-background-box"></div>
-        </div>
-        <!------ бокс средней области окна -->
-        <div class="medium-of-window">
-          <!-- див для выравнивания бордера -->
-          <div class="butterflies-and-stars-box"></div>
-        </div>
-        <!------ бокс нижней части окна -->
-        <div class="bottom-of-window">
-          <!----- левая колонка -->
-          <div class="bottom-left-column">
-            <!-- верхняя секция с цветом и стрелкой -->
-            <div class="top-section-left">
-              <!-- верхний див (левая колонка) -->
-              <div class="in-top-left">
-                <!-- стрелка -->
-                <div class="arrow-last-1">
-                  <img src="./images/Vector 1971.svg" class="img-arrow" />
-                  <div class="line-last-1"></div>
-                  <img src="./images/Vector 1972.svg" class="img-arrow" />
-                  <div class="masked-last-1"></div>
-                </div>
-              </div>
-              <!-- нижний див (левая колонка) -->
-              <div class="in-bot-left"></div>
-            </div>
-            <!-- нижняя секция (под подвал) -->
-            <div class="bottom-section-left"></div>
-          </div>
-          <!----- средняя колонка черная с кнопкой-->
-          <div class="bottom-medium-column">
-            <div class="black_top"></div>
-            <div class="button"></div>
-          </div>
-          <!----- правая колонка -->
-          <div class="bottom-right-column">
-            <!-- верхняя секция с цветом и стрелкой -->
-            <div class="top-section-right">
-              <!-- верхний див (правая колонка) -->
-              <div class="in-top-right">
-                <!-- стрелка -->
-                <div class="arrow-last-2">
-                  <img src="./images/Vector 1971.svg" class="img-arrow" />
-                  <div class="line-last-1"></div>
-                  <img src="./images/Vector 1972.svg" class="img-arrow" />
-                  <div class="masked-last-1"></div>
-                </div>
-                <div class="in-bot-right"></div>
-              </div>
-            </div>
 
-            <!-- нижняя секция (под подвал) -->
-            <div class="bottom-section-right"></div>
-          </div>
-        </div>
+    <!-- нижняя секция (под подвал) -->
+    <div class="bottom-section-right">
+      <div class="hse">hse art and design school</div>
+      <div class="arrow-number-8">
+        <img src="./images/Vector 1971.svg" class="img-arrow" />
+        <div class="line-11"></div>
+        <img src="./images/Vector 1972.svg" class="img-arrow" />
+        <div class="masked11"></div>
       </div>
-    </section>
+      <div class="polina">Березина Полина бП23ДЗ07</div>
+    </div>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>
