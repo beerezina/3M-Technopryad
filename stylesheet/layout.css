@@ -1,6 +1,5 @@
 html {
   background-color: black;
-  /* width: 100vw; */
   height: 115.9vw;
   background-image: url(../images/backg6.svg);
   background-size: contain;
@@ -11,9 +10,6 @@ html {
   position: relative;
   display: flex;
   justify-content: space-between;
-  /* width: 100vw;
-  height: 54.04vw; */
-  /* padding: 1vw 2.57vw 2.57vw 2.57vw; */
   padding: 1vw 1.25vw 2.85vw 1.25vw;
   box-sizing: border-box;
   overflow: hidden;
@@ -57,7 +53,7 @@ html {
 }
 .arrows-1-box {
   display: flex;
-  width: 75.69vw; /* width: 100vw; */
+  width: 75.69vw;
 
   justify-content: space-between;
 }
@@ -91,12 +87,7 @@ html {
   width: 57.16vw;
   justify-content: space-between;
 }
-/* .arrow-number-1,
-.arrow-number-2,
-.arrow-number-3 > img {
-  width: 0.8vw;
-  height: 1vw;
-} */
+
 img > .arrow-number-1 {
   position: relative;
   width: 0.8vw;
@@ -214,9 +205,7 @@ img > .arrow-number-3 {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  /* ign-content: flex-end; */
   align-items: baseline;
-  /* align-content: flex-end; */
   justify-content: space-between;
 }
 .name {
@@ -226,7 +215,7 @@ img > .arrow-number-3 {
   border: 0.07vw white solid;
 }
 .name-content {
-  width: 2.458vw; /* padding: 0.5vw 1.1vw 1.5vw 1.1vw; */
+  width: 2.458vw;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -242,10 +231,10 @@ img > .arrow-number-3 {
   border: 0.07vw white solid;
   align-items: center;
   padding: 0.56vw;
-  /* box-sizing: border-box; */
   justify-content: flex-end;
   color: white;
   font-family: "Joystix";
+  cursor: pointer;
 }
 #confirmButton {
   height: 2vw;
@@ -256,7 +245,6 @@ img > .arrow-number-3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0.56vw; */
   transition: background-color 0.5s;
   cursor: pointer;
 }
@@ -430,8 +418,6 @@ img > .arrow-number-3 {
   border-radius: 50%;
   height: 8.939vw;
   width: 4.688vw;
-  /* margin-top: -8vw;
-  margin-left: 1.5vw; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -444,8 +430,6 @@ img > .arrow-number-3 {
   border-radius: 50%;
   height: 8.939vw;
   width: 4.688vw;
-  /* margin-top: -8vw;
-  margin-right: 1.5vw; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -453,14 +437,12 @@ img > .arrow-number-3 {
   cursor: pointer;
 }
 #prevButton > img {
-  /* margin-left: -1.181vw; */
   width: 2.778vw;
   height: 5.556vw;
   margin-left: 0.5vw;
 }
 
 #nextButton > img {
-  /* margin-left: 0.819vw; */
   width: 2.778vw;
   height: 5.556vw;
   margin-right: 0.5vw;
@@ -558,25 +540,19 @@ img > .arrow-number-3 {
 .second-screen {
   display: flex;
   justify-content: space-between;
-  /* width: 100vw; */
-  /* height: 60.04vw; */
   padding: 0 1.25vw 1.25vw 1.25vw;
   box-sizing: border-box;
 }
 .logo-2 > svg {
-  /* width: 15.6vw;
-  height: 40vw; */
   width: 20.4vw;
   height: 52.0833vw;
   margin-left: -0.6vw;
-  /* margin-top: 2vw; */
 }
 .header-text2 {
   font-family: Joystix;
   color: white;
   font-size: 4vw;
   width: 35vw;
-  /* margin-top: 1.5vw; */
   margin-left: 3.5vw;
 }
 .paint-window-box {
@@ -598,12 +574,6 @@ img > .arrow-number-3 {
   background-size: contain;
 }
 .right-box {
-  /* background-image: url(../images/Frame\ 2710.svg);
-  height: 44.1083vw;
-  width: 3.8389vw;
-  margin-top: 0.5vw;
-  background-repeat: no-repeat;
-  background-size: contain; */
   background-image: url(../images/Frame\ 2709.svg);
   height: 43.61vw;
   width: 3.84vw;
@@ -653,7 +623,6 @@ img > .arrow-number-3 {
 .paint-window {
   display: flex;
   flex-direction: column;
-  /* padding-left: 2.5vw; */
   box-sizing: border-box;
 }
 .arrow-number-7 {
@@ -734,7 +703,6 @@ img > .arrow-number-3 {
   display: flex;
   align-items: center;
   margin-bottom: 0.7vw;
-  /* margin-left: 1vw; */
 }
 .masked07 {
   position: absolute;
@@ -803,8 +771,6 @@ img > .arrow-number-3 {
 }
 
 .paint-menu {
-  /* padding-top: 8.4vw; */
-  /* height: 41.18vw; */
   height: 49.22vw;
   padding-top: 8.9vw;
   box-sizing: border-box;
@@ -814,14 +780,17 @@ img > .arrow-number-3 {
   height: 35vw;
   border: 0.07vw white solid;
 }
-.further2 {
+
+#further2 {
   width: 18.33vw;
   height: 4.1vw;
   margin: 1.53vw 0 0 0;
   border: 0.07vw white solid;
   background-color: #4200ff;
+  cursor: pointer;
 }
-.further2 > p {
+
+#further2 > p {
   font-size: 1vw;
   font-family: Joystix;
   color: white;
@@ -848,92 +817,6 @@ img > .arrow-number-3 {
   top: 0;
 }
 
-/* .bottom-section-left {
-  height: 67px;
-  width: 100%;
-  background-color: black;
-}
-
-.right_box_in {
-  width: 192px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.intop_2 {
-  background-color: red;
-  height: 43px;
-}
-.inbot_2 {
-  height: 12px;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.topitop {
-  display: flex;
-  flex-direction: row;
-  height: 55px;
-  width: 100%;
-}
-.bottom3 {
-  height: 67px;
-  width: 100%;
-}
-.toptoptop {
-  background-color: red;
-  height: 55px;
-}
-
-.left_box_in_2 {
-  width: 192px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.intop_3 {
-  background-color: red;
-  height: 43px;
-  position: relative;
-}
-
-.svg-1,
-.svg-2 {
-  position: absolute;
-  top: 36px;
-}
-.svg-1 {
-  right: 0;
-}
-
-.inbot_3 {
-  height: 12px;
-  display: flex;
-  position: relative;
-}
-.intop_3::before {
-  content: "";
-  display: block;
-  height: 1px;
-  background: green;
-}
-
-.red-block {
-  width: 380px;
-  height: 79px;
-  background-color: red;
-}
-
-.red-block::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background: green;
-} */
-
 /* для окраски фона в джс */
 .butterflies-and-stars-box,
 .left-background-box,
@@ -950,7 +833,6 @@ img > .arrow-number-3 {
   width: 60vw;
   height: 34vw;
 }
-/* ------------------ третий экран */
 .third-screen {
   padding: 0 1.25vw 1.25vw 1.25vw;
   height: 57.92vw;
@@ -1047,7 +929,6 @@ img > .arrow-number-3 {
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* width: 29.25vw; */
 }
 .top-section-left::after {
   position: absolute;
@@ -1191,6 +1072,7 @@ img > .arrow-last-2 {
   width: 3.125vw;
   height: 3.125vw;
   border: 0.07vw white solid;
+  cursor: pointer;
 }
 .patterns-box-top,
 .patterns-box-bot {
@@ -1291,8 +1173,6 @@ img > .arrow-last-2 {
 .square {
   height: 0.8vw;
   width: 0.8vw;
-  /* border: 0.01vw solid white; */
-  /* background-color: white; */
   border: 0.01vw solid white;
   transition: background-color 0.5s;
   cursor: pointer;
@@ -1331,6 +1211,7 @@ div > input {
   width: 3.125vw;
   height: 3.125vw;
   border: 0.07vw white solid;
+  cursor: pointer;
 
   appearance: auto;
   inline-size: 2.7vw;
@@ -1367,7 +1248,6 @@ div > input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0.5vw 1vw; */
 }
 .detailss,
 .backgr {
