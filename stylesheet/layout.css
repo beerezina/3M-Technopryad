@@ -106,7 +106,7 @@ img > .arrow-number-3 {
   height: 1vw;
 }
 .header-text {
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   font-size: 4.17vw;
   text-align: right;
@@ -189,7 +189,7 @@ img > .arrow-number-3 {
 }
 .welcome-content > p {
   font-size: 1.2vw;
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   line-height: 1.2vw;
 }
@@ -278,21 +278,21 @@ img > .arrow-number-3 {
 .health > p {
   color: white;
   font-size: 1vw;
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   line-height: 1.2vw;
 }
 .power > p {
   color: white;
   font-size: 1vw;
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   line-height: 1.2vw;
 }
 .speed > p {
   color: white;
   font-size: 1vw;
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   line-height: 1.2vw;
 }
@@ -307,7 +307,7 @@ img > .arrow-number-3 {
 
 .further > p {
   font-size: 1vw;
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   line-height: 1.2vw;
 }
@@ -549,7 +549,7 @@ img > .arrow-number-3 {
   margin-left: -0.6vw;
 }
 .header-text2 {
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   font-size: 4vw;
   width: 35vw;
@@ -792,7 +792,7 @@ img > .arrow-number-3 {
 
 #further2 > p {
   font-size: 1vw;
-  font-family: Joystix;
+  font-family: "Joystix";
   color: white;
   line-height: 1.2vw;
 }
